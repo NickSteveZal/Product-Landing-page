@@ -25,54 +25,78 @@
       .flex-container {
         display: flex;
       }
+      body {
+        font-family: monospace;
+        font-size: 20px;
+      }
+      .nav-link {
+        padding: 20px;
+        margin: 20px;
+      }
+      #product_info {
+        margin: 20px;
+        padding: 20px;
+      }
+      h1 {
+        margin: 35px;
+        padding: 35px;
+      }
     </style>
   </head>
   <body>
-    <div class="flex-container">
+    <div>
       <header id="header">
-        <div class="logo">
-          <img
-            src="https://www.designevo.com/res/templates/thumb_small/blue-and-green-circular-fish-company.png"
-            alt="Example Company Logo"
-            id="header-img"
-          />
-        </div>
+        <center>
+          <div class="flex-container">
+            <img
+              src="https://www.designevo.com/res/templates/thumb_small/blue-and-green-circular-fish-company.png"
+              alt="Example Company Logo"
+              id="header-img"
+            />
+          </div>
+        </center>
+        <center>
         <nav id="nav-bar">
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#product_info">Product Info</a>
           <a class="nav-link" href="#purchase_options">Purchase Options</a>
         </nav>
+      </center>
       </header>
     </div>
-    <div class="flex-container">
-      <h1>Product Landing Page</h1>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input
-          id="email"
-          type="email"
-          name="email"
-          placeholder="Enter your Email address"
-          required
-        />
-        <input
-          id="submit"
-          type="submit"
-        />
-      </form>
+    <div>
+      <center>
+        <h1>Product Landing Page</h1>
+      </center>
+      <center>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Enter your Email address"
+            required
+          />
+          <input
+            id="submit"
+            type="submit"
+          />
+        </form>
+      </center>
     </div>
-    <div class="flex-container">
+    <div>
       <section id="about">
-
       </section>
     </div>
-    <div class="flex-container">
-      <section id="product_info">
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/sxZlqFLIwSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </section>
+    <div>
+      <center>
+        <section id="product_info">
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/sxZlqFLIwSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+      </center>
     </div>
-    <div class="flex-container">
+    <div>
       <section id="purchase_options">
-
       </section>
     </div>
   </body>
